@@ -1,0 +1,51 @@
+body {
+    padding: 200px;
+    margin: 200px;;
+    background-color:#D7adb0;
+    align-items:flex-start;
+    justify-content:flex-start;
+    }
+    
+ .rotate:hover {
+        animation: rotation 2s infinite linear;
+      }
+  
+@keyframes rotation {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+
+  .container {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow:#a45156;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-github {
+    background: #ce46f0;
+    color: rgb(197, 240, 118);
+  }
+  .fa-instagram {
+      background:#4a6c6f;
+      color:#C0BCB5;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
