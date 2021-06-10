@@ -1,0 +1,57 @@
+body {
+     background:mediumaquamarine;
+     padding: 40px;
+
+}
+
+.btn {
+    background-image: linear-gradient(to right,#006175 0%, #00a950 100%);
+    border-radius: 25px;
+    font-size: 50px;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    height: 100px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 4px;
+    position: relative;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.btn:hover {
+    color: #000;
+}
+.btn:hover span {
+    background:transparent;
+}
+span{
+    font-size:50px;
+    align-items: center;
+    background-color: #e7e8e9;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+    transition: background.5s ease; 
+}
+
+#thisp {
+    font-size: 14px;
+    align-items:center;
+    background-color:violet;
+}
+
+fieldset {
+    margin: 5px, 10px, 20px, 30px;
+}
+
+#thisthing {
+    padding: 10px;
+
+}
+
+/* this is a comment */
