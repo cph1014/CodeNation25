@@ -77,3 +77,83 @@ nav a:hover::before {
 div {
     color:white;
 }
+
+/*Parent*/
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+
+.box-1 {
+    align-content: flex-start;
+    max-width: 960px;
+    height: 40px;
+    padding: 20px;
+    margin: 20px;
+    flex-grow: 10;
+}
+
+.box-2 { 
+    align-content: center; 
+    align-content: flex-start;
+    width: 600px;
+    height: 200px;
+    border: 15px solid #78a2a5;
+    padding: 50px;
+    margin: 20px;
+}
+
+.box-3 {
+    align-content: center; 
+    align-content: flex-start;
+    width: 600px;
+    height: 200px;
+    border: 15px solid #496c6e;
+    padding: 50px;
+    margin: 20px;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+.typewriter { 
+    font-family: 'Staatliches', cursive;
+    padding: 20px;
+    margin: 20px;
+    left:1px;
+    top:20px;
+    float:left;
+    display: flexbox;
+    align-items: baseline;
+}
+
+.typewriter-text {
+    display:inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+    animation: typing 5s steps(40,end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@keyframes typing {
+    from {
+        width: 0%
+    }
+    to {
+        width:100%
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    50%{
+        border-color:orange;
+    }
+}
+
