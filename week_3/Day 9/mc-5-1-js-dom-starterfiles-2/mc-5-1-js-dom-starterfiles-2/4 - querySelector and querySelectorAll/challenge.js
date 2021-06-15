@@ -5,7 +5,7 @@ const colours = ['red', 'yellow', 'goldenrod', 'lightgreen', 'blue', 'purple'];
 
 const list = document.querySelectorAll("li");
 
-let x=0; // Global var
+let x = 0; // Global var
 for (let i = 0; i < list.length; i++){
      list[i].style.color = colours[x];
      x++;
