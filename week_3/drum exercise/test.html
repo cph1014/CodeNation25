@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="test.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
 
     <title>Drum Studio</title>
 </head>
@@ -26,14 +26,20 @@
     </div>
 
     <div class="icon">
-    <img class="clap" src="icon/clap.png">
-    <img class="close" src="icon/closed-hihat.png">
-    <img class="crash" src="icon/crash.png">
-    <img class="kick" src="icon/kick.png">
-    <img class="open" src="icon/open-hihat.png">
-    <img class="snare" src="icon/snare.png">
+    <img id="clap"  src="icon/clap.png">
+    <img id="close" src="icon/closed-hihat.png">
+    <img id="crash" src="icon/crash.png">
+    <img id="kick"  src="icon/kick.png">
+    <img id="open"  src="icon/open-hihat.png">
+    <img id="snare" src="icon/snare.png">
     </div>
-
+     
+    <audio id="clapclap" src="sounds/clap.wav"></audio>
+    <audio id="closeclose" src="sounds/closehihat.mp3"> </audio>
+    <audio id="crashcrash" src="sounds/crash.mp3"></audio>
+    <audio id="openopen" src="sounds/hihat.wav"></audio>
+    <audio id="kickkick" src="sounds/kick.wav"></audio>
+    <audio id="snaresnare" src="sounds/snare.wav"></audio>
 
     <script src="test.js"></script>
 </body>

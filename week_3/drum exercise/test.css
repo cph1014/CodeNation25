@@ -45,50 +45,50 @@ button:hover {
 }
 
 
-.clap {
+#clap {
     transition: transform.2s;
 }
 
-.clap:hover {
+#clap:hover {
      transform: scale(1.2);
 }
 
-.close {
+#close {
     transition: transform.2s;
 }
 
-.close:hover {
+#close:hover {
      transform: scale(1.2);
 }
 
-.crash {
+#crash {
     transition: transform.2s;
 }
 
-.crash:hover {
+#crash:hover {
      transform: scale(1.2);
 }
 
-.kick {
+#kick {
     transition: transform.2s;
 }
 
-.kick:hover {
+#kick:hover {
      transform: scale(1.2);
 }
 
-.open {
+#open {
     transition: transform.2s;
 }
 
-.open:hover {
+#open:hover {
      transform: scale(1.2);
 }
 
-.snare {
+#snare {
     transition: transform.2s;
 }
 
-.snare:hover {
+#snare:hover {
      transform: scale(1.2);
 }

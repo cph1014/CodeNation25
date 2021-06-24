@@ -1,42 +1,28 @@
+let clapIcon = document.getElementById("clap");
+let closeIcon = document.getElementById("close");
+let crashIcon = document.getElementById("crash");
+let kickIcon = document.getElementById("kick");
+let openIcon = document.getElementById("open");
+let snareIcon = document.getElementById("snare");
+
 //Detecting Button Press
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i<numberOfDrumButtons; i++) {
-
   document.querySelectorAll(".drum")[i].addEventListener("click", function (){
-
-var buttonInnerHTML = this.innerHTML;
-
-  makeSound(buttonInnerHTML);
- buttonAnimation(buttonInnerHTML);
+   var buttonInnerHTML = this.innerHTML;
+   makeSound(buttonInnerHTML);
+   buttonAnimation(buttonInnerHTML);
 });
 }
 
-//Detecting Image Press
-var numberOfDrumImage = document.querySelectorAll(".img").length;
-
-for (var j = 0; j<numberOfDrumImage; j++) {
-
-    document.querySelectorAll(".img")[j].addEventListener("click", function (){
-
-        var imgInnerHTML = this.innerHTML;
-
-        makeSound(imgInnerHTML);
-        imgAnimation(imgInnerHTML);
-    });
-    }
-
 //Detecting keyboard Press
 document.addEventListener("keypress",function(event){
-
   makeSound(event.key);
-
   buttonAnimation(event.key);
-
 });
 
 function makeSound(key){
-
 switch (key) {
   case "a":
     var boom = new Audio('sounds/boom.wav');
@@ -44,33 +30,33 @@ switch (key) {
   break;
 
   case "s":
-  var clap = new Audio('sounds/clap.wav');
-  clap.play();
+    var clap = new Audio('sounds/clap.wav');
+    clap.play();
   break;
 
   case "d":
-  var hihat = new Audio('sounds/hihat.wav');
-  hihat.play();
+    var hihat = new Audio('sounds/hihat.wav');
+    hihat.play();
 
   break;
   case "f":
-  var kick = new Audio('sounds/kick.wav');
-  kick.play();
+    var kick = new Audio('sounds/kick.wav');
+    kick.play();
 
   break;
   case "g":
-  var openhat = new Audio('sounds/openhat.wav');
-  openhat.play();
+    var openhat = new Audio('sounds/openhat.wav');
+    openhat.play();
 
   break;
   case "h":
-  var ride = new Audio('sounds/ride.wav');
-  ride.play();
+    var ride = new Audio('sounds/ride.wav');
+    ride.play();
 
   break;
   case "j":
-  var snare = new Audio('sounds/snare.wav');
-  snare.play();
+    var snare = new Audio('sounds/snare.wav');
+    snare.play();
   break;
 
   case "k":
@@ -83,19 +69,42 @@ switch (key) {
     tom.play();
     break;
 
-
   default: console.log();
-
 }
 
 }
 
 function buttonAnimation(currentKey){
 var activeButton = document.querySelector("." + currentKey );
-
 activeButton.classList.add("pressed");
 
 setTimeout(function(){
   activeButton.classList.remove("pressed");
 },100);
 }
+
+
+//icon with sounds
+clapIcon.addEventListener("click", ()=>{
+  document.getElementById("clapclap").play();
+})
+
+closeIcon.addEventListener("click", ()=>{
+  document.getElementById("closeclose").play();
+})
+
+crashIcon.addEventListener("click", ()=>{
+  document.getElementById("crashcrash").play();
+})
+
+kickIcon.addEventListener("click", ()=>{
+  document.getElementById("kickkick").play();
+})
+
+openIcon.addEventListener("click", ()=>{
+  document.getElementById("openopen").play();
+})
+
+snareIcon.addEventListener("click", ()=>{
+  document.getElementById("snaresnare").play();
+})
