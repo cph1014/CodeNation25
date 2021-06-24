@@ -33,6 +33,8 @@ switch (key) {
     var clap = new Audio('sounds/clap.wav');
     clap.play();
     clapIcon.style.transform = "scale(1.2)"; 
+    setTimeout(function(){
+      clapIcon.style.transform = "scale(1.0)"},200);
 
   case "d":
     var hihat = new Audio('sounds/hihat.wav');
@@ -43,12 +45,16 @@ switch (key) {
     var kick = new Audio('sounds/kick.wav');
     kick.play();
     kickIcon.style.transform = "scale(1.2)"; 
-
+    setTimeout(function(){
+      kickIcon.style.transform = "scale(1.0)"},200);
+      
   break;
   case "g":
     var openhat = new Audio('sounds/openhat.wav');
     openhat.play();
     openIcon.style.transform = "scale(1.2)"; 
+    setTimeout(function(){
+      openIcon.style.transform = "scale(1.0)"},200);
 
   break;
   case "h":
@@ -60,6 +66,8 @@ switch (key) {
     var snare = new Audio('sounds/snare.wav');
     snare.play();
     snareIcon.style.transform = "scale(1.2)"; 
+    setTimeout(function(){
+      snareIcon.style.transform = "scale(1.0)"},200);
 
   break;
 
