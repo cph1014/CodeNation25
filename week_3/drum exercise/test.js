@@ -59,7 +59,7 @@ switch (key) {
   case "j":
     var snare = new Audio('sounds/snare.wav');
     snare.play();
-    openIcon.style.transform = "scale(1.2)"; 
+    snareIcon.style.transform = "scale(1.2)"; 
 
   break;
 
