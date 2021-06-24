@@ -32,7 +32,7 @@ switch (key) {
   case "s":
     var clap = new Audio('sounds/clap.wav');
     clap.play();
-  break;
+    clapIcon.style.transform = "scale(1.2)"; 
 
   case "d":
     var hihat = new Audio('sounds/hihat.wav');
@@ -42,11 +42,13 @@ switch (key) {
   case "f":
     var kick = new Audio('sounds/kick.wav');
     kick.play();
+    kickIcon.style.transform = "scale(1.2)"; 
 
   break;
   case "g":
     var openhat = new Audio('sounds/openhat.wav');
     openhat.play();
+    openIcon.style.transform = "scale(1.2)"; 
 
   break;
   case "h":
@@ -57,6 +59,8 @@ switch (key) {
   case "j":
     var snare = new Audio('sounds/snare.wav');
     snare.play();
+    openIcon.style.transform = "scale(1.2)"; 
+
   break;
 
   case "k":
@@ -83,7 +87,6 @@ setTimeout(function(){
 },100);
 }
 
-
 //icon with sounds
 clapIcon.addEventListener("click", ()=>{
   document.getElementById("clapclap").play();
@@ -99,6 +102,7 @@ crashIcon.addEventListener("click", ()=>{
 
 kickIcon.addEventListener("click", ()=>{
   document.getElementById("kickkick").play();
+
 })
 
 openIcon.addEventListener("click", ()=>{

@@ -38,18 +38,21 @@ button:hover {
 }
 
 .icon {
-    padding-left: 20%;
+    padding-left: 10%;
     justify-content: center;
     align-content: center;
     align-items:center;
 }
 
+img {
+    margin:20px;
+}
 
 #clap {
     transition: transform.2s;
 }
 
-#clap:hover {
+#clap:active {
      transform: scale(1.2);
 }
 
@@ -57,7 +60,7 @@ button:hover {
     transition: transform.2s;
 }
 
-#close:hover {
+#close:active {
      transform: scale(1.2);
 }
 
@@ -65,7 +68,7 @@ button:hover {
     transition: transform.2s;
 }
 
-#crash:hover {
+#crash:active {
      transform: scale(1.2);
 }
 
@@ -73,7 +76,7 @@ button:hover {
     transition: transform.2s;
 }
 
-#kick:hover {
+#kick:active {
      transform: scale(1.2);
 }
 
@@ -81,7 +84,7 @@ button:hover {
     transition: transform.2s;
 }
 
-#open:hover {
+#open:active {
      transform: scale(1.2);
 }
 
@@ -89,6 +92,6 @@ button:hover {
     transition: transform.2s;
 }
 
-#snare:hover {
+#snare:active {
      transform: scale(1.2);
 }
