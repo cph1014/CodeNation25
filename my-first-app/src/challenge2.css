@@ -1,0 +1,10 @@
+body {
+    background-color: palevioletred;
+}
+
+button {
+    width: 20vh;
+    background-color: white;
+    font-size: 10vh;
+    justify-content: center;
+}
