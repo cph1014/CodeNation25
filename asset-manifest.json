@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/calculator/static/css/main.3a2be4ee.chunk.css",
-    "main.js": "/calculator/static/js/main.8a650ae4.chunk.js",
-    "main.js.map": "/calculator/static/js/main.8a650ae4.chunk.js.map",
-    "runtime-main.js": "/calculator/static/js/runtime-main.f32f2f99.js",
-    "runtime-main.js.map": "/calculator/static/js/runtime-main.f32f2f99.js.map",
-    "static/js/2.ab4e2aa1.chunk.js": "/calculator/static/js/2.ab4e2aa1.chunk.js",
-    "static/js/2.ab4e2aa1.chunk.js.map": "/calculator/static/js/2.ab4e2aa1.chunk.js.map",
-    "static/js/3.8f674a30.chunk.js": "/calculator/static/js/3.8f674a30.chunk.js",
-    "static/js/3.8f674a30.chunk.js.map": "/calculator/static/js/3.8f674a30.chunk.js.map",
-    "index.html": "/calculator/index.html",
-    "static/css/main.3a2be4ee.chunk.css.map": "/calculator/static/css/main.3a2be4ee.chunk.css.map",
-    "static/js/2.ab4e2aa1.chunk.js.LICENSE.txt": "/calculator/static/js/2.ab4e2aa1.chunk.js.LICENSE.txt"
+    "main.css": "/cph1014/calculator.git/static/css/main.3a2be4ee.chunk.css",
+    "main.js": "/cph1014/calculator.git/static/js/main.8a650ae4.chunk.js",
+    "main.js.map": "/cph1014/calculator.git/static/js/main.8a650ae4.chunk.js.map",
+    "runtime-main.js": "/cph1014/calculator.git/static/js/runtime-main.ee12df07.js",
+    "runtime-main.js.map": "/cph1014/calculator.git/static/js/runtime-main.ee12df07.js.map",
+    "static/js/2.ab4e2aa1.chunk.js": "/cph1014/calculator.git/static/js/2.ab4e2aa1.chunk.js",
+    "static/js/2.ab4e2aa1.chunk.js.map": "/cph1014/calculator.git/static/js/2.ab4e2aa1.chunk.js.map",
+    "static/js/3.8f674a30.chunk.js": "/cph1014/calculator.git/static/js/3.8f674a30.chunk.js",
+    "static/js/3.8f674a30.chunk.js.map": "/cph1014/calculator.git/static/js/3.8f674a30.chunk.js.map",
+    "index.html": "/cph1014/calculator.git/index.html",
+    "static/css/main.3a2be4ee.chunk.css.map": "/cph1014/calculator.git/static/css/main.3a2be4ee.chunk.css.map",
+    "static/js/2.ab4e2aa1.chunk.js.LICENSE.txt": "/cph1014/calculator.git/static/js/2.ab4e2aa1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f32f2f99.js",
+    "static/js/runtime-main.ee12df07.js",
     "static/js/2.ab4e2aa1.chunk.js",
     "static/css/main.3a2be4ee.chunk.css",
     "static/js/main.8a650ae4.chunk.js"
