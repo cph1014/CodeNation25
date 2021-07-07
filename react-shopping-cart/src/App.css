@@ -1,4 +1,4 @@
-body {
+.App {
   text-align: center;
 }
 
@@ -35,4 +35,38 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.products img {
+  width: 100%;
+}
+
+.product {
+  padding: 40px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  color:
+}
+
+header {
+  background-color: pink;
+  height:70px;
+  padding-top: 20px;
+}
+
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
 }
